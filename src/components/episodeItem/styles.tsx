@@ -19,7 +19,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     title: {
-
+        color: 'darkgrey',
+        fontWeight: 'bold',
     },
     duration: {
         color: 'darkgrey',

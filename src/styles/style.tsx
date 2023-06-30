@@ -22,6 +22,16 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         color: '#fff'
+    },
+
+    /* STYLE MOVIE DETAILS */
+    view_container: {
+      color: '#fff',
+      backgroundColor: '#000',
+      tint: '#fff',
+      tabIconDefault: '#ccc',
+      tabIconSelected: '#fff',
+      height: '100%'
     }
   });
 

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+const styles_movie = StyleSheet.create({
     image: {
         width: '100%',
         aspectRatio: 16/9,
@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 24,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color:'#fff'
     },
     match: {
         color: '#59d467',
@@ -58,7 +59,15 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 16,
         fontWeight: 'bold'
+    },
+    listContainer: {
+        padding:12,
+        /*color: '#fff',
+        backgroundColor: '#000',
+        tint: '#fff',
+        tabIconDefault: '#ccc',
+        tabIconSelected: '#fff'*/
     }
 })
 
-export default styles;
+export default styles_movie;

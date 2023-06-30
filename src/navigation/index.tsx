@@ -6,6 +6,7 @@ import NotFoundScreen from '../screens/NotFoundScreen';
 import { RootStackParamList } from './typesNavigation';
 import linkingConfiguration from './linkingConfiguration'
 import bottomTabNavigator from './bottomTabNavigator';
+import welcome from '../screens/welcome';
 
 /*{colorScheme}: {colorScheme: ColorSchemeName}*/
 function Navigation ({colorScheme}: {colorScheme: ColorSchemeName}){
@@ -25,7 +26,7 @@ function RootNavigator(){
     return(
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Root" component={bottomTabNavigator} />
-          <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
+          <Stack.Screen name="NotFound" component={welcome} options={{ title: 'Welcome Netflix' }} />
         </Stack.Navigator>
     );
 }
