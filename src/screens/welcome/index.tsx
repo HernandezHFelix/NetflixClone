@@ -8,15 +8,15 @@ import { RootStackParamList } from '../../navigation/typesNavigation'
 const welcome = ({navigation }: StackScreenProps<RootStackParamList, 'NotFound'>) => {
     return (
         <View style={style.carousel_container}>
-            <View style={{width: '90%', height:'100%'}}>
-                <View style={{justifyContent:'center', alignItems: 'center',height:400, width:'90%', top: 0,margin:'auto'}}>
-                    <View style={{justifyContent:'center'}}>
+            <View style={{width: '90%', height:'100%', alignContent: 'center', alignItems:'center'}}>
+                <View style={{height:400, width:'90%', top: 0}}>
+                    <View style={{justifyContent:'center', alignItems: 'center', marginTop: 70}}>
                         <Image
                             style={{width:380, height: 270, resizeMode: 'contain',}}
                             source={{uri:'https://hackstore.rs/wp-content/uploads/2023/05/ioMtng0qHbwNjR1fuxYZsRf1kjm-200x300.jpg'}}
                         />
                     </View>
-                    <View style={{justifyContent:'center', alignItems:'center', textAlign:'center' ,marginTop: 15}}>
+                    <View style={{textAlign:'center' ,marginTop: 15}}>
                         <Text style={{color:'#fff', fontSize:36, fontWeight:'600'}}>
                             Unlimited entertainment, one low price.
                         </Text>
