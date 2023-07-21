@@ -2,7 +2,6 @@ import * as React from 'react';
 import { ColorSchemeName } from 'react-native';
 import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import NotFoundScreen from '../screens/NotFoundScreen';
 import { RootStackParamList } from './typesNavigation';
 import linkingConfiguration from './linkingConfiguration'
 import bottomTabNavigator from './bottomTabNavigator';
