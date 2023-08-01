@@ -103,6 +103,6 @@ function TabTwoNavigator() {
         />
       </TabTwoStack.Navigator>
     );
-  }
+}
 
 export default BottomTabNavigator;
